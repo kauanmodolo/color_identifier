@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" style="text-align: center;">
+<header>
+<h1>QUAL A COR DA SUA CAMISETA?</h1>
+<p>Machine Learning </p>
+</header>
+
+<button type="button" onclick="init()">Fazer reconhecimento</button>
+<div id="webcam-container"></div>
+<div id="label-container"></div>
+
+<footer>
+<p>Todos direitos reservados - Kauan Modolo - teachablemachine.withgoogle</p>
+
+</footer>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+<script src="script.js"></script>
+</html>
